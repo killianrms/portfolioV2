@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Download, Mail, Phone, Calendar, MapPin, Github, Linkedin } from 'lucide-react';
-import profileImage from '../assets/images/photo.png';
+import profileImage from '../../assets/images/photo.png';
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
